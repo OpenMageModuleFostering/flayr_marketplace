@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Flayr_Marketplace>
+            <active>true</active>
+            <codePool>local</codePool>
+			<depends>
+                <Mage_Shipping />
+				<Mage_Payment />
+            </depends>
+        </Flayr_Marketplace>
+    </modules>
+</config>

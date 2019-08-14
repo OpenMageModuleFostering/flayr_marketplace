@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Flayr_Marketplace>
+            <module>0.0.1</module>
+        </Flayr_Marketplace>
+    </modules>
+    <global>
+        <models>
+            <flayr_marketplace>
+                <class>Flayr_Marketplace_Model</class>
+            </flayr_marketplace>
+        </models>
+    </global>
+    <!-- Default configuration -->
+    <default>
+        <carriers>
+            <flayr_marketplace>
+                <active>1</active>
+                <model>flayr_marketplace/carrier</model>
+                <title>Flayr Carrier</title>
+                <sort_order>10</sort_order>
+                <sallowspecific>0</sallowspecific>
+            </flayr_marketplace>
+			<flayrfree_marketplace>
+                <active>1</active>
+                <model>flayr_marketplace/freecarrier</model>
+                <title>Flayr Free Carrier</title>
+                <sort_order>11</sort_order>
+                <sallowspecific>0</sallowspecific>
+            </flayrfree_marketplace>
+        </carriers>
+		<payment>
+            <flayrpay>
+                <active>1</active>
+                <model>flayr_marketplace/flayrpay</model>
+                <order_status>processing</order_status>
+                <title>Flayr Payment</title>
+				<sort_order>10</sort_order>
+				<sallowspecific>0</sallowspecific>
+				<group>offline</group>
+            </flayrpay>
+         </payment>
+    </default>
+</config>

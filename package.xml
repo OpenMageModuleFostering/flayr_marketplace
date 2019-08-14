@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>Flayr_Marketplace</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Flayr est une plateforme leader en Europe du Discovery Shopping sur Mobile. Avec pr&#xE8;s d' 1 000 000 d'utilisateurs, Flayr propose la meilleure exp&#xE9;rience de shopping du Mobile dans des univers comme la Mode, la d&#xE9;coration ou le High Tech. Ne ratez pas la r&#xE9;volution du Shopping Mobile qui repr&#xE9;sentera bient&#xF4;t 50% des transactions en ligne.</summary>
+    <description>Ce module permet de faire conna&#xEE;tre votre marque et vos produits dans un environnement premium sur les applications mobiles (iPhone et Android). Flayr offre une nouvelle exp&#xE9;rience de shopping et permet &#xE0; ses membres de d&#xE9;couvrir et d'acheter les produits qu'ils aiment parmi les plus grandes marques et jeunes cr&#xE9;ateurs en un seul et m&#xEA;me endroit. &#xD;
+&#xD;
+Nos membres peuvent &#xE9;galement partager leurs d&#xE9;couvertes entre amis et cr&#xE9;er ainsi un vrai engagement autour de votre marque (exemple: cr&#xE9;er des Flayrlists pour un cadeau d&#x2019;anniversaire...).&#xD;
+&#xD;
+Vous aurez &#xE9;galement une page d&#xE9;di&#xE9;e &#xE0; votre marque sur Flayr. Flayr offre aussi &#xE0; ses partenaires la possibilit&#xE9; d'augmenter leur visibilit&#xE9; &#xE0; travers des op&#xE9;rations d&#xE9;di&#xE9;es et des mises-en-avant ponctuelles (s&#xE9;lections &#xE9;ditorialis&#xE9;es sur la homepage, promotions exclusives, etc...). </description>
+    <notes>First release</notes>
+    <authors><author><name>Flayr</name><user>Marketplace</user><email>jerome.pellegrin@flayr.com</email></author></authors>
+    <date>2015-07-16</date>
+    <time>15:45:40</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Flayr_Marketplace.xml" hash="562a2f53e1e8f481d6923b53c1c85647"/></dir></target><target name="magelocal"><dir name="Flayr"><dir name="Marketplace"><dir name="Model"><file name="Carrier.php" hash="fde83869df14df2257ed07cf4f9073b4"/><file name="Flayrpay.php" hash="08cf04b9f9070e5687ffd4bab3a754b7"/><file name="Freecarrier.php" hash="133ac07e5c03bbe16a6f2eaa4fe48a7d"/></dir><dir name="etc"><file name="config.xml" hash="e35704c8d353569dbeec07a824bf7de2"/><file name="system.xml" hash="bcb441bff03c64b2c15b07ed4af1abae"/></dir></dir></dir><dir name="Mage"><dir name="Catalog"><dir name="Model"><dir name="Product"><dir name="Link"><file name="Api.php" hash="b30ee184331e0409eee20b66e3f38bbe"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
