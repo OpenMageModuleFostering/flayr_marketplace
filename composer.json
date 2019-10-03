@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Flayr_Marketplace",
+    "name": "OpenMageModuleFostering\/Flayr_Marketplace",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
-    "description": "Flayr est une plateforme leader en Europe du Discovery Shopping sur Mobile. Avec près d' 1 000 000 d'utilisateurs, Flayr propose la meilleure expérience de shopping du Mobile dans des univers comme la Mode, la décoration ou le High Tech. Ne ratez pas la révolution du Shopping Mobile qui représentera bientôt 50% des transactions en ligne.",
+    "description": "Flayr est une plateforme leader en Europe du Discovery Shopping sur Mobile. Avec pr\u00e8s d' 1 000 000 d'utilisateurs, Flayr propose la meilleure exp\u00e9rience de shopping du Mobile dans des univers comme la Mode, la d\u00e9coration ou le High Tech. Ne ratez pas la r\u00e9volution du Shopping Mobile qui repr\u00e9sentera bient\u00f4t 50% des transactions en ligne.",
     "authors": [
-    {
-        "name": "Flayr",
-        "email": "jerome.pellegrin@flayr.com"
-    }
-],
+        {
+            "name": "Flayr",
+            "email": "jerome.pellegrin@flayr.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
